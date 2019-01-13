@@ -24,7 +24,7 @@ a = raw_input("[+] Lanjutkan (y/n): ")
 d = raw_input("[+] Jumlah : ")
 while x < d:
    b = {"https://xxnx.com":a}
-   c = " https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor=081340490071"
+   c = " https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor=085656330321"
    e = requests.post(c, data=b)
    f = json.loads(e.text)
    if "nexmo_request_id" in f:
